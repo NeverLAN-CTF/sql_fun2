@@ -1,0 +1,27 @@
+{
+    "containerDefinitions": [
+        {
+            "name": "sql_fun2",
+            "image": "neverlanctf/sql_fun2",
+            "memory": "128",
+            "cpu": "1",
+            "essential": true,
+            "portMappings": [
+                {
+                    "hostPort": "80",
+                    "containerPort": "8083",
+                    "protocol": "tcp"
+                }
+            ],
+            "environment": null,
+            "mountPoints": null,
+            "volumesFrom": null,
+            "extraHosts": null,
+            "logConfiguration": null,
+            "ulimits": null,
+            "dockerLabels": null
+        }
+    ],
+    "volumes": [],
+    "family": "sql_fun2"
+}
